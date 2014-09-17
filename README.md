@@ -18,9 +18,9 @@ There are four main parameters when using the scripture service (outside of the 
 Parameter  | Type | Subtype | Description | usage | required
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 id  | integer | path parameter | The id is associated with a specific verse  | [base_url]\[id] | Yes |
-l  | string | url parameter | The desired language for the memory verse.  The language must be in the 3 character Digital Bible Platform format. | [base_url]\[id]?l=[language] | Yes |
-d | integer | url parameter | A number corresponding to the day of the year, ideally 1 - 366, which will fetch an image associated with that day. | [base_url]\[id]?l=[language]&d=1 | No |
-html | boolean | url parameter | A value indicating whether to generate a sharable webpage rather than JSON | [base_url]\[id]?l=[language]&html=true | No |
+l  | string | url parameter | The desired language for the memory verse.  The language must be in the 3 character Digital Bible Platform format. | [base_url]\\[id]?l=[language] | Yes |
+d | integer | url parameter | A number corresponding to the day of the year, ideally 1 - 366, which will fetch an image associated with that day. | [base_url]\\[id]?l=[language]&d=1 | No |
+html | boolean | url parameter | A value indicating whether to generate a sharable webpage rather than JSON | [base_url]\\[id]?l=[language]&html=true | No |
 
 Note:  The day parameter is not required only because it will use a default image.
 
