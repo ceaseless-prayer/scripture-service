@@ -1,5 +1,5 @@
 {
-  "name": "scripture-service",
+  "name": "ScriptureService",
   "version": "0.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -8,9 +8,15 @@
   "dependencies": {
     "compression": "^1.0.3",
     "errorhandler": "^1.1.1",
+    "fs": "0.0.2",
+    "lodash": "^2.4.1",
     "loopback": "^2.0.0",
     "loopback-boot": "^2.0.0",
+    "loopback-connector-mysql": "^1.4.5",
     "loopback-datasource-juggler": "^2.0.0",
+    "q": "^1.0.1",
+    "request": "^2.40.0",
+    "rsvp": "^3.0.13",
     "serve-favicon": "^2.0.1"
   },
   "optionalDependencies": {
