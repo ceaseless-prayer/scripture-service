@@ -11,7 +11,7 @@ In the server/config.json file, replace "dbpApiKey" with your API key you got fr
 
 After which in the command prompt simply type in "slc run" to get the service up and running.
 
-##R equest Parameters
+## Request Parameters
 
 There are four main parameters when using the scripture service (outside of the strongloop api/explorer).
 
