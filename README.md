@@ -1,17 +1,17 @@
 scripture-service
 =================
 
-JSNode service for retrieving bible scripture in a supported language with a pretty picture.
+Node.js service for retrieving Bible scripture in a supported language with a pretty picture.
 
-#Usage
-The scripture service depends on StrongLoop.  To install strong loop make sure that you have python 2.7 as it will use it.
+# Usage
+The scripture service depends on StrongLoop.  To install strong loop, make sure you have Python 2.7 installed as it will use it.
 See http://strongloop.com/ for more details.
 
 In the server/config.json file, replace "dbpApiKey" with your API key you got from the Digital Bible Platform.
 
 After which in the command prompt simply type in "slc run" to get the service up and running.
 
-##Request Parameters
+##R equest Parameters
 
 There are four main parameters when using the scripture service (outside of the strongloop api/explorer).
 
@@ -40,5 +40,5 @@ The response will be in the form:
 ```
 
 #Notes
-* Multiple versions is not supported, though some of the code is there (currently commented out).  Because this is build on the Digital Bible Platform, languages can be associated with versions. As it stands, assign a default version with the language based on the Digital Bible Platform.
-* Because of time constraints, html is currently a parameter.  It should really be separated from the response.
+* Multiple versions are not supported though some of the code is there (commented out).  Because this is build on the Digital Bible Platform, languages can be associated with versions. As it stands, assign a default version with the language based on the Digital Bible Platform.
+* Because of time constraints, HTML is currently a parameter.  It should be separated from the response.
